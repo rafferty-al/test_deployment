@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="vztest-project-pkg-ivanz98",
-    version="0.0.5",
+    version="0.0.6",
     author="ivanz98",
     author_email="zhitnikov.ivan98@gmail.com",
     description="A test example package",
@@ -17,5 +17,5 @@ setuptools.setup(
         "License :: OSI Approved :: MIT License",
         "Operating System :: OS Independent",
     ],
-    python_requires='>=3.7',
+    python_requires='>=3.6',
 )
