@@ -1,10 +1,5 @@
 import unittest
-try:
-    from scripts.foo import *
-except ImportError:
-    import sys
-    sys.path.append(sys.path[0] + '/..')
-    from scripts.foo import *
+from scripts.foo import *
 from utils import get_test_runner
 
 
