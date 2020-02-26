@@ -10,6 +10,7 @@ class TestScripts(unittest.TestCase):
         self.assertEqual(500, add(250, 250))
         self.assertEqual(501, add(251, 250))
         self.assertEqual(502, add(251, 251))
+        self.assertEqual(503, add(251, 252))
         
     def test_sub(self):
         self.assertEqual(5, sub(10, 5))
