@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="vztest-project-pkg-ivanz98",
-    version="0.1.2",
+    version="0.1.3",
     author="ivanz98",
     author_email="zhitnikov.ivan98@gmail.com",
     description="A test example package",
