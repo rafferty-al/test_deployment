@@ -5,7 +5,7 @@ from utils import get_test_runner
 
 class TestScripts(unittest.TestCase):
     def test_add(self):
-        self.assertEqual(15, add(10, 5))
+        self.assertEqual(16, add(10, 6))
         self.assertEqual(11, add(10, 1))
         self.assertEqual(500, add(250, 250))
         self.assertEqual(501, add(251, 250))
